@@ -4,10 +4,11 @@ This project uses the [Open AI GPT API](https://openai.com/api/) and [Vercel Edg
 
 ## Running Locally
 
-After cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys) to make an account and put your API key in a file called `.env`. also add GPT model to use two popular options GPT_MODEL=gpt-3.5-turbo, GPT_MODEL=gpt-4
+After cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys) to make an account and put your API key in a file called `.env`. also add GPT model to use two popular options GPT_MODEL=gpt-3.5-turbo, GPT_MODEL=gpt-4. env.example added to repo
+
+install packages using npm install
 
 Then, run the application in the command line and it will be available at `http://localhost:3000`.
 
-```bash
 npm run dev
-```
+
